@@ -1,0 +1,39 @@
+{
+  "name": "map-claims-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rollup --config rollup.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chase_harrison@bitbucket.org/cnc_claims/map-claims-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/cnc_claims/map-claims-react/issues"
+  },
+  "homepage": "https://bitbucket.org/cnc_claims/map-claims-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
+    "babel-preset-react-app": "^10.0.0",
+    "cross-env": "^7.0.3",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-progress": "^1.1.2",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-typescript2": "^0.30.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
